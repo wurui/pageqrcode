@@ -5,7 +5,7 @@
             <xsl:variable name="data" select="data/title-and-qrcode"/>
             <section>
                 <xsl:if test="$data/title !=''">
-                <h3 class="title">本页面二维码</h3>
+                <h3 class="title"><xsl:value-of select="$data/title"/></h3>
                 </xsl:if>
                 <xsl:if test="$data/img !=''">
                 <img src="{$data/img}"/>
