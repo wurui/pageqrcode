@@ -1,3 +1,17 @@
-.oxmod-pageqrcode{
-/* CSS */
- }
+.oxmod-pageqrcode {
+  /* CSS */
+  text-align: center;
+  color: #666;
+}
+.oxmod-pageqrcode .title {
+  margin: 10px 0 5px;
+}
+.oxmod-pageqrcode .title:before,
+.oxmod-pageqrcode .title:after {
+  content: '';
+  width: 50px;
+  border-top: solid 1px #ddd;
+  display: inline-block;
+  margin: 0px 15px 0;
+  vertical-align: middle;
+}

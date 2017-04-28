@@ -11,13 +11,11 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <title-and-qrcode>
-        <title>
-            nice wallet
-        </title>
-        <img>
-            //oxm1.cc/img/fox.jpg
-        </img>
-    </title-and-qrcode>
+        <title-and-qrcode>
+            <title>
+                本页面二维码
+            </title>
+            <img>http://i.oxm1.cc/uploads/git/wurui/img/2ahavle0yTj21hg7ouRb7uhA5eb-1000.png</img>
+        </title-and-qrcode>
     </data>
 </root>

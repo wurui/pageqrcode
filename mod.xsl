@@ -2,9 +2,15 @@
     <xsl:template match="/root" name="wurui.pageqrcode">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-pageqrcode" ox-mod="pageqrcode">
-            <h1>
-                This is mod pageqrcode;
-            </h1>
+            <xsl:variable name="data" select="data/title-and-qrcode"/>
+            <section>
+                <xsl:if test="$data/title !=''">
+                <h3 class="title">本页面二维码</h3>
+                </xsl:if>
+                <xsl:if test="$data/img !=''">
+                <img src="{$data/img}"/>
+                </xsl:if>
+            </section>
         </div>
     </xsl:template>
 </xsl:stylesheet>
