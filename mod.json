@@ -1,0 +1,6 @@
+{
+  "name": "pageqrcode",
+  "version": "0.0.1",
+  "apiDependencies": ["title-and-qrcode"]
+}
+
